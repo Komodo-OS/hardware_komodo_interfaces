@@ -18,7 +18,7 @@ cc_binary {
     init_rc: ["vendor.qti.hardware.cryptfshw@1.0-service-dlsym-qti.rc"],
     owner: "qti",
     product_variables: {
-        aosp: {
+        komodo: {
             should_skip_waiting_for_qsee: {
                 cflags: ["-DSKIP_WAITING_FOR_QSEE"],
             },
