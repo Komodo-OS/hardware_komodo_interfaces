@@ -46,7 +46,7 @@ cc_binary {
     defaults: ["vendor.qti.hardware.cryptfshw@1.0_defaults"],
     product_variables: {
         komodo: {
-            should_skip_waiting_for_qsee: {
+            should_wait_for_qsee: {
                 cflags: ["-DWAIT_FOR_QSEE"],
             },
         },
